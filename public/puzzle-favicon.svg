@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="url(#grad1)" stroke="#fff" stroke-width="1"/>
+  
+  <!-- Puzzle pieces -->
+  <!-- Red piece -->
+  <rect x="8" y="8" width="4" height="4" fill="#ff6b6b" rx="1"/>
+  <rect x="12" y="8" width="4" height="4" fill="#ff6b6b" rx="1"/>
+  <rect x="8" y="12" width="4" height="4" fill="#ff6b6b" rx="1"/>
+  
+  <!-- Blue piece -->
+  <rect x="16" y="8" width="4" height="4" fill="#4ecdc4" rx="1"/>
+  <rect x="20" y="8" width="4" height="4" fill="#4ecdc4" rx="1"/>
+  <rect x="20" y="12" width="4" height="4" fill="#4ecdc4" rx="1"/>
+  
+  <!-- Green piece -->
+  <rect x="8" y="16" width="4" height="4" fill="#45b7d1" rx="1"/>
+  <rect x="12" y="16" width="4" height="4" fill="#45b7d1" rx="1"/>
+  <rect x="16" y="16" width="4" height="4" fill="#45b7d1" rx="1"/>
+  
+  <!-- Orange piece -->
+  <rect x="20" y="16" width="4" height="4" fill="#ffa726" rx="1"/>
+  <rect x="24" y="16" width="4" height="4" fill="#ffa726" rx="1"/>
+  <rect x="20" y="20" width="4" height="4" fill="#ffa726" rx="1"/>
+  
+  <!-- Yellow piece -->
+  <rect x="8" y="20" width="4" height="4" fill="#ffeb3b" rx="1"/>
+  <rect x="12" y="20" width="4" height="4" fill="#ffeb3b" rx="1"/>
+  <rect x="16" y="20" width="4" height="4" fill="#ffeb3b" rx="1"/>
+  
+  <!-- Purple piece -->
+  <rect x="24" y="8" width="4" height="4" fill="#ab47bc" rx="1"/>
+  <rect x="24" y="12" width="4" height="4" fill="#ab47bc" rx="1"/>
+  
+  <!-- Small accent pieces -->
+  <rect x="12" y="12" width="2" height="2" fill="#fff" opacity="0.8" rx="0.5"/>
+  <rect x="18" y="12" width="2" height="2" fill="#fff" opacity="0.8" rx="0.5"/>
+  <rect x="14" y="18" width="2" height="2" fill="#fff" opacity="0.8" rx="0.5"/>
+  <rect x="22" y="18" width="2" height="2" fill="#fff" opacity="0.8" rx="0.5"/>
+</svg> 
