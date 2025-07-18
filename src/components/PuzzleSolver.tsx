@@ -7,9 +7,6 @@ import {
 import { PIECE_SHAPES, getPiecesByIds, getTotalArea } from '../data/pieceShapes';
 import './PuzzleSolver.css';
 
-// Helper function to shuffle an array
-
-
 const PuzzleSolver: React.FC = () => {
   // Load initial state from localStorage or use defaults
   const [boardWidth, setBoardWidth] = useState(() => {
