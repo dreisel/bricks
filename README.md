@@ -26,7 +26,7 @@ A React-based puzzle solver for 5×N board puzzles with 12 unique pieces. The so
 
 ## Live Demo
 
-Visit the live application at: [https://yourusername.github.io/bricks/](https://yourusername.github.io/bricks/)
+Visit the live application at: [https://dreisel.github.io/bricks/](https://dreisel.github.io/bricks/)
 
 ## Development
 
