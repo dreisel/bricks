@@ -4,18 +4,11 @@ import {
   generatePieceVariations,
   type Solution 
 } from '../utils/newPuzzleSolver';
-import { PIECE_SHAPES, getPiecesByIds, getTotalArea, type PieceShape } from '../data/pieceShapes';
+import { PIECE_SHAPES, getPiecesByIds, getTotalArea } from '../data/pieceShapes';
 import './PuzzleSolver.css';
 
 // Helper function to shuffle an array
-const shuffleArray = <T,>(array: T[]): T[] => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
+
 
 const PuzzleSolver: React.FC = () => {
   // Load initial state from localStorage or use defaults
