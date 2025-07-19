@@ -252,13 +252,10 @@ const PuzzleSolver: React.FC = () => {
 
       {solutions.length > 0 && (
         <div className="solutions">
-          <h3>Solutions Found: {solutions.length}</h3>
-          {solutions.map((solution, index) => (
-            <div key={index} className="solution">
-              <h4>Solution {index + 1}</h4>
-              {renderBoard(solution)}
-            </div>
-          ))}
+          <h3>Solution Found</h3>
+          <div className="solution">
+            {renderBoard(solutions[0])}
+          </div>
         </div>
       )}
     </div>
